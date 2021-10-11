@@ -47,8 +47,11 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a class="col-12 btn btn-warning" href="#reserve-table" role="button">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -80,9 +83,8 @@
             </div>
             <div class="col col-sm col-md">
                 <div class="media">
-                    <img src="img/buffet.png" alt="buffet" class="d-flex ml-3 mr-3 img-thumbnail align-self-center">
                     <div class="media-body">
-                        <h2 class="mt-0">Weekend Grand Buffet</h2>
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span> </h2>
                         <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five
                             different
                             salads, six enticing appetizers,
@@ -90,6 +92,7 @@
                             just
                             $19.99 per person </p>
                     </div>
+                    <img src="img/buffet.png" alt="buffet" class="d-flex ml-3 img-thumbnail align-self-center">
                 </div>
             </div>
         </div>
@@ -114,8 +117,50 @@
 
             </div>
         </div>
-    </div>
+        <div class="row row-content justify-content-md-center" id="reserve-table">
+            <div class="col-12 col-md-8">
+                <div class="card">
+                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row">
+                                <label for="guest" class="col-12 col-md-3">Number of Guest</label>
+                                <div class="col-12 col-md">
+                                    <input type="radio">
+                                    <label for="radioguest" class="form-control-label">1</label>
+                                    <input type="radio">
+                                    <label for="radioguest" class="form-control-label">2</label>
+                                    <input type="radio">
+                                    <label for="radioguest" class="form-control-label">3</label>
+                                    <input type="radio">
+                                    <label for="radioguest" class="form-control-label">4</label>
+                                    <input type="radio">
+                                    <label for="radioguest" class="form-control-label">5</label>
+                                    <input type="radio">
+                                    <label for="radioguest" class="form-control-label">6</label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="dateandtime" class="col-12 col-md-3 col-form-label">Date and Time</label>
+                                <div class="col-12 col-md-4">
+                                    <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class=" col-12 offset-md-3">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </div>
     <footer class="footer">
         <div class="container">
             <div class="row">
