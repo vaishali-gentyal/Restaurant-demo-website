@@ -59,7 +59,7 @@ body{
 .btn-group input[type="radio"]{
     display: none;
 }
-#carousel-Buttons{
+#carousel-Button{
     right: 0px;
     position: absolute;
     bottom: 0px;
